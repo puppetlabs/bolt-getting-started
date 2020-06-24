@@ -1,0 +1,25 @@
+parameters:
+  targets:
+    type: TargetSpec
+  src:
+    type: String  
+
+steps:
+  - name: install_apache
+    task: package
+    targets: $targets
+    parameters:
+      action: install
+      name: apache2
+    description: "Install Apache using the package task"
+
+  - name: start_apache
+    script: apache/start_apache.sh
+    targets: $targets
+    description: "Start the Apache service"
+
+  - name: upload_homepage
+    source: $src
+    destination: /var/www/html/index.html
+    targets: $targets
+    description: "Upload site contents"

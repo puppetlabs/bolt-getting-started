@@ -1,0 +1,13 @@
+groups:
+- name: containers
+  targets:
+    - uri: 127.0.0.1:2000
+      name: target1
+    - uri: 127.0.0.1:2001
+      name: target2
+  config:
+    transport: ssh
+    ssh:
+      user: root
+      password: root
+      host-key-check: false
