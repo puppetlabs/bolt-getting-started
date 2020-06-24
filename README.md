@@ -1,12 +1,14 @@
 # Getting started with Bolt
 
 This repo houses a Bolt project that you can use to set up Apache on a pair of
-container targets. The project goes together with the Bolt Getting started guide and is
-intended to guide you through setting up a Bolt project with a simple YAML plan.
+container targets. The project goes together with the Bolt Getting started guide
+and is intended to guide you through setting up a Bolt project with a simple
+YAML plan.
 
-**Note**: If you don't want to use Docker containers, you can edit the inventory.yaml file
-in `my_project` to use any targets you like. For information, see the Bolt
-documentation for [inventory files](https://puppet.com/docs/bolt/latest/inventory_file_v2.html). 
+**Note**: If you don't want to use Docker containers, you can edit the
+inventory.yaml file in `my_project` to use any targets you like. For
+information, see the Bolt documentation for [inventory
+files](https://puppet.com/docs/bolt/latest/inventory_file_v2.html). 
 
 For detailed instructions on using this repo, see [Getting started with
 Bolt](https://puppet.com/docs/bolt/latest/getting_started_with_bolt.html).
@@ -29,6 +31,12 @@ Bolt](https://puppet.com/docs/bolt/latest/getting_started_with_bolt.html).
 
 ## About Bolt
 
-Bolt is an open source orchestration tool that automates the manual work it takes to maintain your infrastructure. Use Bolt to automate tasks that you perform on an as-needed basis or as part of a greater orchestration workflow. For example, you can use Bolt to patch and update systems, troubleshoot servers, deploy applications, or stop and restart services. Bolt can be installed on your local workstation and connects directly to remote targets with SSH or WinRM, so you are not required to install any agent software.
+Bolt is an open source orchestration tool that automates the manual work it
+takes to maintain your infrastructure. Use Bolt to automate tasks that you
+perform on an as-needed basis or as part of a greater orchestration workflow.
+For example, you can use Bolt to patch and update systems, troubleshoot servers,
+deploy applications, or stop and restart services. Bolt can be installed on your
+local workstation and connects directly to remote targets with SSH or WinRM, so
+you are not required to install any agent software.
 
 For more information, see the [Bolt repo](https://github.com/puppetlabs/bolt).
