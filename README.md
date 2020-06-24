@@ -11,6 +11,11 @@ documentation for [inventory files](https://puppet.com/docs/bolt/latest/inventor
 For detailed instructions on using this repo, see [Getting started with
 Bolt](https://puppet.com/docs/bolt/latest/getting_started_with_bolt.html).
 
+## Prerequisites
+
+- [Bolt](https://puppet.com/docs/bolt/latest/bolt_installing.html)
+- [Docker](https://docs.docker.com/get-docker/) (or alternatively, use your own existing targets)
+
 ## Quickstart
 
 1. Clone or download this repo.
